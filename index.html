@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 15 - Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>My Task Manager ✅</h1>
+
+        <div class="task-input">
+            <input id="taskInput" type="text" placeholder="Enter a new task">
+            <button id="addBtn">Add Task</button>
+        </div>
+
+        <p id="status">Add your first task!</p>
+        <p id="taskCount">Total tasks: 0</p>
+        
+<div id="taskCounts"></div>
+
+<div class="filters">
+    <button id="filterAll">All</button>
+    <button id="filterPending">Pending</button>
+    <button id="filterCompleted">Completed</button>
+</div>
+
+<button id="clearAllBtn">Clear All Tasks</button>
+
+
+        <ul id="taskList"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
